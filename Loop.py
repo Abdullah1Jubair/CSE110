@@ -24,4 +24,23 @@ while count <= 20:
     else:
         print(count, end=", ")    
     count = count+5 
+
+
+# FOR LOOP 
+
+for number in range(5):
+    print("Happy Birthday")
+    
+# for loop range 
+# range(5) = starting value 0 , end value 5 
+# range(1,5)= starting value 1, end value 5 
+# range(1,5,2)= starting value 1, end value 5, increment = 2
+
+
+# c) 18, 37, 36, 45, 54, 63
+for number in range (18,64,9):
+    if number ==63:
+        print(number,end="")
+    else:
+        print(number,end=", ")    
         
